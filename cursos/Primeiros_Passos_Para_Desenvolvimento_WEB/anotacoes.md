@@ -18,3 +18,54 @@
 2) Primeiro blog? 'Open Diary' criado em  1994 pelo brasileiro Claudio Pinhanez que trabalhava no MIT, [fonte](https://rockcontent.com/br/blog/historia-dos-blogs/#:~:text=Os%20primeiros%20blogs,pouco%20sobre%20a%20sua%20vida.)
 3) Primeira compra? CD do cantor Sting, em 11 de agosto de 1994, [fonte](https://exame.com/marketing/eis-a-primeira-coisa-a-ser-vendida-pela-internet-na-historia/#:~:text=E%20o%20primeiro%20produto%20a,Ten%20Summoner's%20Tales%2C%20de%201993.)
 4) Site mais antigo em atividade? NORDUnet de 1º de janeiro de 1985, [fonte](https://www.uol.com.br/tilt/colunas/pergunta-pro-jokura/2021/09/06/qual-e-o-site-mais-antigo-da-internet.htm#:~:text=Em%201%C2%BA%20de%20janeiro%20de,15%20de%20mar%C3%A7o%20de%201985.)
+
+
+### Redes
+
+- TCP/IP : Transmission Control Protocol /  Internet Protocol
+- Camadas:
+    1. Física (Placa de rede)
+    2. Rede (IP)
+    3. Transporte (TCP, UDP)
+    4. Aplicação (FTP, SMTP, HTTP)
+
+- TCP X UDP
+  | UDP | TCP |
+  |---|---|
+  | Rápido | Voltado a conexão |
+  | Não Confiável | Handshake |
+  | Broadcast | Integridade, ordem dos dados |
+  | Livestream | Aplicativo de mensagens de texto |
+
+- Portas
+
+  | Porta | Descrição |
+  |:---:|:---:|
+  | 20 | FTP |
+  | 22 | SSH |
+  | 25 | SMTP |
+  | 53 | DNS |
+  | 80 | HTTP |
+  | 443 | HTTPS |
+
+  - GMail
+
+  | Porta | Descrição |
+  |:---:|:---:|
+  | 465 | SMTP |
+  | 587 | TSL |
+  | 995 | POP3 |
+
+  - MySql
+
+  | Porta | Descrição |
+  |:---:|:---:|
+  | 3306 | Protocol Classic |
+  | 33060 | X Protocol |
+
+  - Apache
+
+  | Porta | Descrição |
+  |:---:|:---:|
+  | 80 | HTTP |
+  | 443 | HTTPS |
