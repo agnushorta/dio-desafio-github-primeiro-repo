@@ -109,3 +109,17 @@ Essa propriedade vai se encarregar de alinhar os itens dentro do container de ac
  - space-between : cria um espaçamento igual entre os elementos
  - space-around : os espaçamentos do meio são duas vezes maiores que o inicial e final.
 
+## Flex-grow
+
+Define a proporcionalidade de crescimentos dos itens, respeitando o tamanho de seus conteúdos internos.
+
+**OBS:** não irá funcionar caso tenhamos adicionado *justify-content* ao nosso flex container.
+
+## Flex-basis
+
+É a propriedade que estavelece o tamanho inicial do item antes da distribuição de espaço restante dentro dele, usndo como base o conteúdo interno disposto.
+
+### Valores possíveis
+- auto : caso o item não tenha tamanho, este será proporcional ao conteúdo do item.
+- px, %, em, ..: são valores exatos previamente definidos
+- 0 (zero): terá relação direta com a definição do flex-grow
