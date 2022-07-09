@@ -123,3 +123,18 @@ Define a proporcionalidade de crescimentos dos itens, respeitando o tamanho de s
 - auto : caso o item não tenha tamanho, este será proporcional ao conteúdo do item.
 - px, %, em, ..: são valores exatos previamente definidos
 - 0 (zero): terá relação direta com a definição do flex-grow
+
+## Flex
+
+Esta propriedade é um atalho ou abreviação de escrita para as propriedades: grow, shrink e basis.
+
+## Align-self
+
+É a propriedade que estavelece o alinhamento de modo individual sobre um determinado item.
+
+- **auto**: valor padrão, irá respeitrar a definição de align-items do container
+- **flex-start**: ao início do container
+- **flex-end**: ao final do container
+- **center**: relativo ao centro de acordo com o eixo
+- **stretch**: ocupa todo os espaços relativos
+- **baseline**: utiliza a linha base da tipografia 
